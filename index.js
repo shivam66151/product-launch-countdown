@@ -25,10 +25,7 @@ function updateTimer() {
   total_seconds_left -= minutes_left * 60;
 
   let seconds_left = total_seconds_left;
-  // console.log(day_left);
-  // console.log(hours_left);
-  // console.log(minutes_left);
-  // console.log(seconds_left);
+  
   dayH.innerHTML = preceedZero(day_left, 2);
   dayH_bottom.innerHTML = preceedZero(day_left, 2);
 
