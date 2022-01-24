@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
 
 :root {
-    --Grayish-blue: hsl(237, 18%, 59%);
+    --Grayish-purple: hsl(243, 13%, 69%);
     --Soft-red: hsl(345, 95%, 68%);
     --White: hsl(0, 0%, 100%);
     --Dark-desaturated-blue: hsl(236, 21%, 26%);
@@ -21,4 +21,27 @@ body {
     font-family: 'Dongle', sans-serif;
     font-weight: 700;
     background: linear-gradient(var(--Dark-purple), #2F2439);
+    width: 100vw;
+    min-height: 100vh;
+    color: var(--Grayish-purple);
+}
+.container {
+    margin: auto;
+    width: 90%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.heading h1 {
+    font-size: 1.4rem;
+    color: var(--White);
+    margin: auto;
+    letter-spacing: 7px;
+}
+.counter-div {
+    margin-top: 2rem;
+    
 }
