@@ -43,5 +43,101 @@ body {
 }
 .counter-div {
     margin-top: 2rem;
-    
+    width: min(100vw, 500px);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
+.counter-div .box {
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+  }
+  .box p {
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+  }
+  .counter-div .box .card-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: #000;
+    border-radius: 3px;
+  }
+.card,
+.card2 {
+  position: relative;
+  width: 100%;
+  height: 2.4rem;
+  border-radius: 3px;
+  background: var(--Dark-desaturated-blue);
+  overflow: hidden;
+}
+.card2 {
+    background: var(--Dark-desaturated-blue-clone);
+    box-shadow: 0 15px 9px -8px var(--Very-dark-blue);
+  }
+  
+  .card .top,
+  .card2 .bottom {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    color: var(--Soft-red);
+    font-size: 2.7rem;
+    line-height: 1;
+  }
+  
+  .card .top {
+    top: 50%;
+    opacity: 0.8;
+  }
+  
+  .card2 .bottom {
+    top: -50%;
+  }
+  
+  
+  .stars {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url(bg-stars.svg);
+    z-index: -1;
+  }
+  
+  footer {
+    position: absolute;
+    top: 70%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url(pattern-hills.svg) left top/cover no-repeat;
+    background-position-y: 0%;
+    background-size: stretch;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  footer .social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+  }
+  
+  .social-icon {
+    color: var(--Grayish-blue);
+    font-size: 1rem;
+  }
+  
+  .social-icon:hover {
+    color: var(--Soft-red);
+    box-shadow: 0 1px 50px -10px var(--Soft-red);
+  }
