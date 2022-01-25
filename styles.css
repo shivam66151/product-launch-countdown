@@ -4,7 +4,7 @@
     --Grayish-purple: hsl(243, 13%, 69%);
     --Soft-red: #05386b;
     --White: hsl(0, 0%, 100%);
-    --Dark-desaturated-blue: #55bcc9;
+    --cyan: #55bcc9;
     --Dark-desaturated-blue-clone:#97caef;
     --Very-dark-blue: hsl(234, 17%, 12%);
     --Dark-purple: hsl(291, 35%, 15%);
@@ -73,7 +73,7 @@ body {
   width: 100%;
   height: 2.4rem;
   border-radius: 3px;
-  background: var(--Dark-desaturated-blue);
+  background: var(--cyan);
   overflow: hidden;
 }
 .card2 {
