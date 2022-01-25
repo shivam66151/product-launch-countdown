@@ -20,7 +20,7 @@
 body {
     font-family: 'Dongle', sans-serif;
     font-weight: 700;
-    background: linear-gradient(var(--Dark-purple), #2F2439);
+    background: linear-gradient(var(--Dark-purple), #FFE577);
     width: 100vw;
     min-height: 100vh;
     color: var(--Grayish-purple);
