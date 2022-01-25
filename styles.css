@@ -2,10 +2,10 @@
 
 :root {
     --Grayish-purple: hsl(243, 13%, 69%);
-    --Soft-red: hsl(345, 95%, 68%);
+    --Soft-red: #05386b;
     --White: hsl(0, 0%, 100%);
-    --Dark-desaturated-blue: hsl(236, 21%, 26%);
-    --Dark-desaturated-blue-clone: hsl(236, 21%, 35%);
+    --Dark-desaturated-blue: #55bcc9;
+    --Dark-desaturated-blue-clone:#97caef;
     --Very-dark-blue: hsl(234, 17%, 12%);
     --Dark-purple: hsl(291, 35%, 15%);
 }
