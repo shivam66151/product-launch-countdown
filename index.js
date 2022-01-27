@@ -21,6 +21,7 @@ function updateTimer() {
   let hours_left = Math.floor(total_seconds_left / 60 / 60);
   total_seconds_left -= hours_left * 60 * 60;
 
+  // The largest round integer less than or equal to the result of time divided being by 60.  
   let minutes_left = Math.floor(total_seconds_left / 60);
   total_seconds_left -= minutes_left * 60;
 
